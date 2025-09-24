@@ -1,0 +1,54 @@
+*{
+    font-family: "IBM Plex Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --border-radius: 15px;
+}
+
+#contenedor{
+    background-color: #ad47d8;
+    width: 28%;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    display: block;
+    justify-content: center;
+    min-width: 250px;
+    max-width: 250px;
+    text-align: center;
+}
+
+form{
+    background-color: #f78e8e;
+    border-radius: var(--border-radius);
+    min-width: 250px;
+    max-width: 250px;
+}
+input{
+    background-color: rgb(229, 247, 241);
+    height: 40px;
+    border-radius: var(--border-radius);
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+}
+
+
+button{
+    width: 40px;
+    padding: 10px;
+    font-weight: 800;
+    text-align: center;
+    color: #751094;
+    background-color: #ecf583;
+    border: none;
+    border-radius: var(--border-radius);
+    margin: 5px;
+}
